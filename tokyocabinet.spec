@@ -1,7 +1,7 @@
 Summary:	A modern implementation of a DBM
 Name:		tokyocabinet
 Version:	1.4.48
-Release:	1%{?dist}
+Release:	3%{?dist}
 License:	LGPLv2+
 Group:		Development/Libraries
 URL:		http://fallabs.com/tokyocabinet/
@@ -78,6 +78,12 @@ make check
 %doc doc/*
 
 %changelog
+* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 1.4.48-3
+- Mass rebuild 2014-01-24
+
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.4.48-2
+- Mass rebuild 2013-12-27
+
 * Mon May 20 2013 Honza Horak <hhorak@redhat.com> - 1.4.48-1
 - Update to 1.4.48
 - Fix help vs. man page differences
